@@ -1,0 +1,63 @@
+<html><head>
+    <title>HELLO SHQIPE</title>
+    
+    
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!-- Iphone (classic & retina) -->
+<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=0.5,minimum-scale=0.3, maximum-scale=0.7">
+<!-- Android (tested on HTC desire S) -->
+<meta name="viewport" content="width=device-width,height=device-height,target-densitydpi=high-dpi,user-scalable=no,initial-scale=0.05,minimum-scale=0.001, maximum-scale=0.5">
+    
+    <style type="text/css">
+    body {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #de0000;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <!-- -->
+       
+
+
+    <iframe width="600" height="315" src="https://www.youtube-nocookie.com/embed/pW0-5ufba7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+    <iframe width="600" height="315" src="https://www.youtube-nocookie.com/embed/qMJpBnZEm24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+</body></html>
