@@ -1,0 +1,538 @@
+
+<!------created by Sheida Hedayati------>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Game</title>
+</head>
+<body>
+    <audio id="music">
+        <source src="https://media1.vocaroo.com/mp3/11hxXd6hdod1" type="audio/mp3">
+    </audio>
+    <div id="playground">
+        <h1 id="win">Coronavirus Won!</h1>
+        <h1 id="lost">Game Over!</h1>
+        <p id="g1" >(You hit people with masks twice!)</p>
+        <p id="g2" >(Time is up!)</p>
+        <div id="man1" class="man w-mask">
+            <div class="head">
+                <div class="eye-m" style="top: 3px;"></div>
+                <div class="eye-m eye-right" style="top: 3px;"></div>
+                <div class="mask"></div>
+                <div class="strap strap1"></div>
+                <div class="strap strap2"></div>
+                <div class="strap strap3"></div>
+                <div class="strap strap4"></div>
+            </div>
+            <div class="body-m"></div>
+            <div class="leftHand left-hand hand">
+            </div>
+            <div class="rightHand right-hand hand">
+            </div>
+            <div class="left-leg leg-m"></div>
+            <div class="right-leg leg-m"></div>
+        </div>
+        <div id="man2" class="man w-mask">
+            <div class="head">
+                <div class="eye-m" style="top: 3px;"></div>
+                <div class="eye-m eye-right" style="top: 3px;"></div>
+                <div class="mask"></div>
+                <div class="strap strap1"></div>
+                <div class="strap strap2"></div>
+                <div class="strap strap3"></div>
+                <div class="strap strap4"></div>
+            </div>
+            <div class="body-m"></div>
+            <div class="leftHand left-hand hand">
+            </div>
+            <div class="rightHand right-hand hand">
+            </div>
+            <div class="left-leg leg-m"></div>
+            <div class="right-leg leg-m"></div>
+        </div>
+        <div id="man3" class="man w-mask">
+            <div class="head">
+                <div class="eye-m" style="top: 3px;"></div>
+                <div class="eye-m eye-right" style="top: 3px;"></div>
+                <div class="mask"></div>
+                <div class="strap strap1"></div>
+                <div class="strap strap2"></div>
+                <div class="strap strap3"></div>
+                <div class="strap strap4"></div>
+            </div>
+            <div class="body-m"></div>
+            <div class="leftHand left-hand hand">
+            </div>
+            <div class="rightHand right-hand hand">
+            </div>
+            <div class="left-leg leg-m"></div>
+            <div class="right-leg leg-m"></div>
+        </div>
+        <div id="man4" class="man w-mask">
+            <div class="head">
+                <div class="eye-m" style="top: 3px;"></div>
+                <div class="eye-m eye-right" style="top: 3px;"></div>
+                <div class="mask"></div>
+                <div class="strap strap1"></div>
+                <div class="strap strap2"></div>
+                <div class="strap strap3"></div>
+                <div class="strap strap4"></div>
+            </div>
+            <div class="body-m"></div>
+            <div class="leftHand left-hand hand">
+            </div>
+            <div class="rightHand right-hand hand">
+            </div>
+            <div class="left-leg leg-m"></div>
+            <div class="right-leg leg-m"></div>
+        </div>
+        <div id="man5" class="man w-mask">
+            <div class="head">
+                <div class="eye-m" style="top: 3px;"></div>
+                <div class="eye-m eye-right" style="top: 3px;"></div>
+                <div class="mask"></div>
+                <div class="strap strap1"></div>
+                <div class="strap strap2"></div>
+                <div class="strap strap3"></div>
+                <div class="strap strap4"></div>
+            </div>
+            <div class="body-m"></div>
+            <div class="leftHand left-hand hand">
+            </div>
+            <div class="rightHand right-hand hand">
+            </div>
+            <div class="left-leg leg-m"></div>
+            <div class="right-leg leg-m"></div>
+        </div>
+        <div id="man6" class="man no-mask">
+            <div class="head" style="background-color: rgb(224, 36, 36);">
+                <div class="eye-m"></div>
+                <div class="eye-m eye-right"></div>
+                <div class="mouth-m"></div>
+            </div>
+            <div class="body-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="leftHand left-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="rightHand right-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="left-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="right-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+        </div>
+        <div id="man7" class="man no-mask">
+            <div class="head" style="background-color: rgb(224, 36, 36);">
+                <div class="eye-m"></div>
+                <div class="eye-m eye-right"></div>
+                <div class="mouth-m"></div>
+            </div>
+            <div class="body-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="leftHand left-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="rightHand right-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="left-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="right-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+        </div>
+        <div id="man8" class="man no-mask">
+            <div class="head" style="background-color: rgb(224, 36, 36);">
+                <div class="eye-m"></div>
+                <div class="eye-m eye-right"></div>
+                <div class="mouth-m"></div>
+            </div>
+            <div class="body-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="leftHand left-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="rightHand right-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="left-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="right-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+        </div>
+        <div id="man9" class="man no-mask">
+            <div class="head" style="background-color: rgb(224, 36, 36);">
+                <div class="eye-m"></div>
+                <div class="eye-m eye-right"></div>
+                <div class="mouth-m"></div>
+            </div>
+            <div class="body-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="leftHand left-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="rightHand right-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="left-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="right-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+        </div>
+        <div id="man10" class="man no-mask">
+            <div class="head" style="background-color: rgb(224, 36, 36);">
+                <div class="eye-m"></div>
+                <div class="eye-m eye-right"></div>
+                <div class="mouth-m"></div>
+            </div>
+            <div class="body-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="leftHand left-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="rightHand right-hand hand" style="background-color: rgb(224, 36, 36);">
+            </div>
+            <div class="left-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+            <div class="right-leg leg-m" style="background-color: rgb(224, 36, 36);"></div>
+        </div>
+        <div id="corona">
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="b">
+                <div class="a"></div>
+            </div>
+            <div class="eye1">
+                <div class="eye2">
+                    <div class="eye3"></div>
+                </div>
+            </div>
+            <div class="eye1" id="eye1">
+                <div class="eye2">
+                    <div class="eye3" id="eye3"></div>
+                </div>
+            </div>
+            <div id="mouth">
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+                <div class="teeth"></div>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <input type="button" id="goUp" value="&#8593"  />
+            <input type="button" id="goLeft" value="&#8592" />
+            <input type="button" id="goRight" value="&#8594"/>
+            <input type="button" id="goDown" value="&#8595"/>
+        </div>
+        <h4 id="score"></h4>
+        <h2 id="text">Suppose you are the coronavirus, make people who didn't wear masks sick in less than 20 seconds, but
+            do not hit those who wore masks twice,
+            otherwise you (coronavirus) will die.</h2>
+        <p id="careful">See how Coronavirus makes you sick quickly, so wear a mask!<br><br><span
+                style="color: rgb(190, 74, 74);">There is no play again, if you don't be careful you'll get sick the first time! ;)</span></p>
+        <button id="btn">Start</button>
+    </div>
+
+    <script>
+        let entered = [],
+         entered2 = [],
+         go_right = false,
+         go_left = false,
+         go_up = false,
+         go_down = false,
+         key = false,
+         touch = false,
+         goUp = document.getElementById("goUp"),
+         goDown = document.getElementById("goDown"),
+         goLeft = document.getElementById("goLeft"),
+         goRight = document.getElementById("goRight"),
+         corona = document.getElementById("corona"),
+         g1 = document.getElementById("g1"),
+         g2 = document.getElementById("g2"),
+         man = document.getElementsByClassName("man"),
+         b = document.getElementsByClassName("b"),
+         a = document.getElementsByClassName("a"),
+         withMask = document.getElementsByClassName("w-mask"),
+         noMask = document.getElementsByClassName("no-mask"),
+         music = document.getElementById("music"),
+         beCareful = document.getElementById("careful"),
+         button = document.getElementById("buttons"),
+         text = document.getElementById("text"),
+         btn = document.getElementById("btn"),
+         win = document.getElementById("win"),
+         lost = document.getElementById("lost"),
+         left = corona.offsetLeft,
+         up = corona.offsetTop;
+         speed = 8,
+         count = 0,
+         speedkey = 20,
+         start = true,
+         hit = 0,
+         rand=true;
+
+        flag();
+
+        function flag() {
+            for (let i = 0; i < noMask.length; i++) {
+                entered.push(false);
+            }
+        }
+
+        flag2();
+
+        function flag2() {
+            for (let i = 0; i < withMask.length; i++) {
+                entered2.push(false);
+            }
+        }
+
+        loop();
+
+        function loop() {
+
+            if (go_left == true && left > 0) {
+                left -= speed;
+                corona.style.left = left + 'px';
+            }
+
+            if (go_right == true && left < 295) {
+                left += speed;
+                corona.style.left = left + 'px';
+            }
+
+            if (go_up == true && up > 5) {
+                up -= speed;
+                corona.style.top = up + 'px';
+            }
+
+            if (go_down == true && up < 320) {
+                up += speed;
+                corona.style.top = up + 'px';
+            }
+            collision();
+            requestAnimationFrame(loop);
+        }
+
+        btn.onclick = function start() {
+            music.play();
+            setTimeout(function () {
+                corona.style.display = "block";
+                button.style.display = 'block';
+            }, 1500);
+
+            var start = setTimeout(function () {
+                rand=false;
+                for (let n = 0; n < man.length; n++) {
+                   man[n].style.display = "none";
+                }
+                onKeyDown();
+                corona.style.display = "none";
+                button.style.display = "none";
+                lost.style.display = "block";
+                beCareful.style.display = 'block';
+                g2.style.display = 'block';
+
+            }, 20000);
+
+            text.style.display = 'none';
+            btn.style.display = 'none';
+
+            function sc() {
+                score.innerHTML = "Sick people : " + count;
+            }
+
+            let timer = setInterval(sc,1); 
+            
+            function move() {
+                
+                if(hit>=2 || rand==false || count >= 5){
+                return;
+                }else{for (let n = 0; n < man.length; n++) {
+                man[n].style.top = Math.floor(Math.random() * 280) + 40;
+                man[n].style.left = Math.floor(Math.random() * 300);
+                }}
+
+            }
+            
+            let time = setInterval(move, 1500);
+        }
+
+
+        function collision() {
+            let coronaTop = parseInt(window.getComputedStyle(corona).getPropertyValue("top"));
+            let coronaLeft = parseInt(window.getComputedStyle(corona).getPropertyValue("left"));
+            for (let i = 0; i < noMask.length; i++) {
+                let manTop = parseInt(window.getComputedStyle(noMask[i]).getPropertyValue("top"));
+                let manLeft = parseInt(window.getComputedStyle(noMask[i]).getPropertyValue("left"));
+
+                let dx = manLeft - coronaLeft;
+                let dy = manTop - coronaTop;
+                
+                dx = Math.abs(dx);
+                dy = Math.abs(dy);
+
+                if (dx < 27 && dy < 27) {
+                    check();
+                    noMask[i].style.display = 'none';
+                    entered[i] = true;
+                }
+
+
+                function check() {
+                    if (entered[i] == false) {
+                        count++;
+                    }
+                }
+            }
+
+            for (let j = 0; j < withMask.length; j++) {
+                let man2Top = parseInt(window.getComputedStyle(withMask[j]).getPropertyValue("top"));
+                let man2Left = parseInt(window.getComputedStyle(withMask[j]).getPropertyValue("left"));
+
+                let dz = man2Left - coronaLeft;
+                let dm = man2Top - coronaTop;
+                
+                dz = Math.abs(dz);
+                dm = Math.abs(dm);
+
+                if (dz < 20 && dm < 20) {
+                corona.style.background="#e67300";
+                for(let i=0; i<a.length;i++){
+                a[i].style.background="#e67300";
+                b[i].style.background="#e67300";
+                }
+                    check2();
+                    entered2[j] = true;
+                    if (hit >= 2) {
+                        for (let n = 0; n < man.length; n++) {
+                        man[n].style.display="none";
+                        }
+                        onKeyDown();
+                        corona.style.display= "none";
+                        button.style.display = "none";
+                        lost.style.display = "block";
+                        beCareful.style.display = 'block';
+                        g1.style.display = 'block';
+                        g2.style.visibility = 'hidden';
+                    }
+                }else{
+                entered2[j]=false;
+                }
+
+                function check2() {
+                    if (entered2[j] == false) {
+                        hit++;
+                    }
+                }
+            }
+
+            if (count >= 5) {
+                for (let n = 0; n < man.length; n++) {
+                    man[n].style.display = "none";
+                }
+                onKeyDown();
+                corona.style.display = "none";
+                button.style.display = "none";
+                win.style.display = "block";
+                beCareful.style.display = "block";
+                lost.style.display = "none";
+                g2.style.display = "none";
+            }
+        }
+
+        goLeft.addEventListener('touchstart', function () {
+            go_left = true;
+            touch = true;
+        });
+
+        goLeft.addEventListener('touchend', function () {
+            go_left = false;
+        });
+
+        goRight.addEventListener('touchstart', function () {
+            go_right = true;
+            touch = false;
+        });
+
+        goRight.addEventListener('touchend', function () {
+            go_right = false;
+        });
+
+        goUp.addEventListener('touchstart', function () {
+            go_up = true;
+        });
+
+        goUp.addEventListener('touchend', function () {
+            go_up = false;
+        });
+
+        goDown.addEventListener('touchstart', function () {
+            go_down = true;
+        });
+
+        goDown.addEventListener('touchend', function () {
+            go_down = false;
+        });
+
+
+        //////////keyboard//////////
+
+        document.onkeydown = function (e) {
+            if (e.keyCode == '37' && left > 0) {
+                key = true;
+                left -= speedkey;
+                corona.style.left = left + 'px';
+            } else if (e.keyCode == '38' && up > 0) {
+                up -= speedkey;
+                corona.style.top = up + 'px';
+            } else if (e.keyCode == '39' && left < 300) {
+                key = false;
+                left += speedkey;
+                corona.style.left = left + 'px';
+            } else if (e.keyCode == '40' && up < 320) {
+                up += speedkey;
+                corona.style.top = up + 'px';
+
+            }
+            }
+            
+            function onKeyDown(event){
+            return false;
+            }
+        
+    </script>
+</body>
+
+</html>
