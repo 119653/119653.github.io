@@ -13,5 +13,5 @@ https://guides.github.com/activities/hello-world/
 ### Read more on the GitHub blog.
 https://github.blog/2022-06-06-introducing-github-skills/ 
 
-### check out GitHub Skills for courses backed by GitHub Actions. 
+### Check out GitHub Skills for courses backed by GitHub Actions. 
 https://skills.github.com/ 
