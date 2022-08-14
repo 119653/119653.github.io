@@ -4,10 +4,13 @@ This is My GitHub Page where I will use for illustrative examples in documents d
 
 ### Walthrough!
 
-#### Introduction to GitHub Walkthrough!
+#### Introduction to GitHub!
 https://youtu.be/sz6zfrQpCQg 
 
 https://lab.github.com/githubtraining/introduction-to-github 
+
+#### GitHub Pages
+https://docs.github.com/en/pages
 
 #### Quick Start -> Hello World!
 https://guides.github.com/activities/hello-world/
@@ -20,3 +23,4 @@ https://skills.github.com/
 
 #### Join the GitHub Training team as they share feature demos, tips and techniques for effective daily Git and GitHub use.
 https://www.youtube.com/c/GitHubGuides/videos
+
